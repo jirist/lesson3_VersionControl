@@ -20,5 +20,5 @@ https://jirist.github.io/lesson3_VersionControl/Lesson3_Highlights/
 ## Lessons Learned in the Assignment:
 1. The importance of using version control system.
 2. The difference between centralized and distributed version control system.
-3. The benefits of using Git.
+3. The benefits of using Git and the process of merging.
 
