@@ -13,6 +13,10 @@ Jiri Stanc
 ## Project Description:
 The subject of this assignment is an introduction to version control and why is version control important?
 
+## View Project:
+
+https://jirist.github.io/lesson3_VersionControl/Lesson3_Highlights/
+
 ## Lessons Learned in the Assignment:
 1. The importance of using version control system.
 2. The difference between centralized and distributed version control system.
