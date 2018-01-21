@@ -2,7 +2,7 @@
 
 
 ## Course Title:
-LIS2360: Web Application Development
+Web Application Development
 
 ## Assignment Date:  
 January 22, 2018
