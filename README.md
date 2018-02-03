@@ -5,7 +5,7 @@
 Web Application Development
 
 ## Assignment Date:  
-February 3, 2018
+February 2, 2018
 
 ## Student Name:  
 Jiri Stanc
