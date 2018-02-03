@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Jiri Stanc</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+    
+    <style>
+        
+        .header-image {background: url(images/header-image.jpg);}
+        
+        .headline h2 {background: none;}
+        .headline > .container {background: rgba(255,255,255,0.9);}
+        
+        .lead {padding-top:5rem; margin-bottom:0;}
+        .lead p {margin-bottom:0;}
+        
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Web App Development</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#topic1">Highlight #1</a>
+                    </li>
+                    <li>
+                        <a href="#topic2">Hightlight #2</a>
+                    </li>
+                    <li>
+                        <a href="#topic3">Hightlight #3</a>
+                    </li>
+                    <li>
+                        <a href="#topic4">Hightlight #4</a>
+                    </li>
+                    <li>
+                        <a href="#topic5">Hightlight #5</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h2>Lesson 3 Highlights</h2>
+                <h3>Jiri Stanc</h3>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+        
+        <div class="lead">
+            <p>
+                What is version control? Why should we use version control? Which version control system should be used? To understand the importance and process of using a structured system to store different versions of our work I have decided to highlight the following five topics.
+            </p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette" id="topic1">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/vcs.jpg">
+            <h2 class="featurette-heading">Highlight #1
+                <span class="text-muted">Version Control</span>
+            </h2>
+            <p class="lead">What is version control and why do we need one? First, let me say, keeping files and folders organized is essential for productivity and success and version control, known also as source control or revision control, is a method for managing changes to any kind of file or folder. In other words, version control is a process to record and manage different versions of a file or folder; each time a new file is created or an old file is edited, version control system keeps a record of it. In general, version control is any form of process that tracks and provides control over changes. The truth is, for most of us, it is common to not even think about version control. The good news is, if you are like me, you already use your basic (local) version control method and that is to simply save multiple copies of a document on your computer with a different title each time the document was changed. Having some version control method is better than having none and this simple method of version control was working for me for many years. While this simple method of version control can work, it is inefficient. In the context of website development, large-scale project, or when more than one version of a file exists a more profound (structured) system to store different versions of your work and track the development of files (instead of creating multiple copies of the same document) is needed. A good version control system should enable simultaneous work of multiple people on a single project, use multiple computers by one person when working on a project, give access to past versions of a particular project and maintain multiple versions of the same project. In simple terms, a good version control method should go far beyond simple "save as" and should be used on all levels, whether working alone, with a team or on a personal project.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Second Featurette -->
+        <div class="featurette" id="topic2">
+            <img class="featurette-image img-circle img-responsive pull-left" src="images/centralized-vcs.jpg">
+            <h2 class="featurette-heading">Highlight #2
+                <span class="text-muted">Centralized Version Control System</span>
+            </h2>
+            <p class="lead">Version control system is an important tool for any project development, allowing backup, track, and synchronization of all changes. There are many version control systems available, with two general varieties of version control (defined by the location of the repository); centralized, also known as traditional and distributed, both being legitimate methods of version control. The most important difference between the centralized method of version control and distributed method of version control is the amount of repositories. Centralized method of version control (CVCS) uses a central server to store all files, meaning the centralized method of version control is having one repository, which resides on a central server. In other words, centralized method of version control works in a client and server relationship. The repository resides in on a central server and provides access to many developers. The idea behind the centralized method of version control is that there is one copy of a particular project (located in the repository on a central server) and developers will upload (commit) their changes on the project to this central copy. The centralized method of version control keeps all the history of changes on a central server, from where the developers pull the latest copy of the project. The benefit of using a centralized method of version control is in control over users and access. The major drawback is that centralized method of version control depends on the functionality of a single server, with the need of the developer to maintain a continuous connection to a central repository.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Third Featurette -->
+        <div class="featurette" id="topic3">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/distributed-vcs.jpg">
+            <h2 class="featurette-heading">Highlight #3
+                <span class="text-muted">Distributed Version Control System</span>
+            </h2>
+            <p class="lead">For many years, version control was utilized by centralized version control systems such as CVS (Concurrent Versions System) or SVN (Subversion). The idea behind the centralized version control systems is to keep a single repository residing on a central server and serving users, who would read from and write to. The first centralized version control system launched in 1986 was the CVS (Concurrent Versions System). In the past ten years, the centralized method of version control became challenged by a new idea of version control method known as distributed version control. The interest in the distributed method of version control is constantly rising, gaining in recent years lots of attention. The first truly distributed version control system was BitKeeper. Other systems operating on the principle of the decentralized method of version control are available, with Git being one of the most popular. What are the advantages of using the distributed method of version control? Unlike centralized version control systems, where a single repository is kept on a central server, with decentralized version control system each user (developer) has their own repository that has the entire history of the project, meaning the decentralized method of version control does not rely on a single repository residing on a central server. In other words, decentralized method of version control mirrors the repository onto the computer of each user. Based on a peer to peer approach, users can communicate (synchronize) with each other without having to go through a central repository. Since there is no need to communicate with a central server, performing actions are much faster and could be done away from internet access (for example, the developer can work while traveling). It should be noted that it is mistaken belief that distributed method of version control cannot have a central project repository. It is at the discretion of the developer (or developers) to label a particular copy of the project as the authoritative one.</p>
+        </div>
+        
+        <hr class="featurette-divider">
+        
+       <!-- Fourth Featurette -->
+        <div class="featurette" id="topic4">
+            <img class="featurette-image img-circle img-responsive pull-left" src="images/git.jpg">
+            <h2 class="featurette-heading">Highlight #4
+                <span class="text-muted">Git</span>
+            </h2>
+            <p class="lead">It is possible to develop a website without using any method of version control, however, this approach is a risk to the developer, no matter whether the developer works alone, or is a part of a team. The question is not whether to use version control system, but which version control system to use? One of the most popular version control system in use today is Git. Developed in 2005 by Linus Torvalds and released under open source license, Git is available freely. Being a distributed method of version control, Git does not rely on the central server. The developer can work anywhere without being held by a network connection and collaborate from any time zone. The most basic element of Git is a repository. Being the most important part of Git (also known as a repo), a repository is a storage (or database) of versions of documents that the developer is using Git to track. There are two types of repositories, a remote repository, and a local repository. To use Git, the developer uses commands executed from a command line. Every time a file is added, modified or removed, the change is being committed to the repository through standard Git commit process (edit, stage, and commit) using two of the most fundamental commands git add and git commit. Files are edited and changes are committed to the local repository first. The moment the local repository has some new changes committed, these can be pushed to the remote repository (such as GitHub, a web-based service hosting Git projects) to be backed up or shared with other developers.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Fifth Featurette -->
+        <div class="featurette" id="topic5">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/branching.jpg">
+            <h2 class="featurette-heading">Highlight #5
+                <span class="text-muted">Branching</span>
+            </h2>
+            <p class="lead">Branching is a feature available in most version control systems, however, with Git, branching is considered simple and one of the core parts of the development workflow. So what is branching? In the world of version control systems, a branch is a run of a document (or code) changes with a special name. When working on a project, the developer is going to have many new ideas to try and branching exists to help manage the process. In other words, a branch is an independent line of development allowing the developer to isolate work on new features, fixes, experiments or updates without breaking up the original file (or in our case a code). Changes made in a branch do not affect the original document, so the developer is free to experiment. Since a single git repository can have many branches of development, it is a good practice to use branching frequently and create a new branch for each task, no matter how big or how small. How does branching works? In simple terms, when branching, Git takes a copy of the original document (code) and saves the document under a different name (branch). So, when the developer changes the branched document, the change will not affect the original. Once the branched document reaches a moment where the developer wants to integrate it with the original document, the branched document is merged back into the original one. By default, the original branch is called "master". To recognize the work done in the branch, branch name should be descriptive.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; 2018</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
