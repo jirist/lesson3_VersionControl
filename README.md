@@ -15,7 +15,7 @@ The subject of this assignment is an introduction to version control and why is 
 
 ## View Project:
 
-https://jirist.github.io/lesson3_VersionControl/Lesson3_Highlights/
+https://jirist.github.io/lesson3_VersionControl/
 
 ## Lessons Learned in the Assignment:
 1. The importance of using version control system.
